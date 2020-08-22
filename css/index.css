@@ -41,7 +41,7 @@ a {
     width: 25%;
     opacity: 0.2;   
     padding-bottom: 50px; 
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     color: rgb(154, 149, 149);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -66,6 +66,7 @@ h3 {
 main {
 
     z-index: 2;
-    /* background-color: white; */
+    background-color: black;
 }
+
 
