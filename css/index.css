@@ -37,7 +37,7 @@ a {
    position: relative;
 }
 
-.card {
+.card-1 {
     width: 25%;
     opacity: 0.2;   
     padding-bottom: 50px; 
@@ -48,8 +48,22 @@ a {
     transition: 0.2s;
 }
 
-.card:hover {
+.btn:hover {
+    background-color: #4d4d4d;
+    transition: 0.2s;
+}
+
+.card-1:hover {
     opacity: 1.0;
+}
+
+.card-2 {
+    margin: 0 auto;
+    margin-top: 325px;
+    float: none;
+    width: 35%;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 body {
@@ -73,3 +87,13 @@ footer {
     text-align: center;
     padding-bottom: 10px;
 }
+
+.btn-primary {
+    width: 75%;
+    margin-bottom: 10px;   
+    margin-top: 5px; 
+}
+
+label > h4 {
+    margin-top: 20px;
+} 
