@@ -65,6 +65,17 @@ a {
     opacity: 1.0;
 }
 
+main {
+
+    z-index: 2;
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .body-2 {
     margin-right: 450px;
     margin-left: 450px;
@@ -86,17 +97,6 @@ h3 {
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     padding-top: 50px;
-}
-
-main {
-
-    z-index: 2;
-    background-color: black;
-}
-
-footer {
-    text-align: center;
-    padding-bottom: 10px;
 }
 
 .btn-primary {
@@ -151,6 +151,30 @@ label > h4 {
         color: rgb(154, 149, 149);
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         transition: 0.2s;
+    }
+
+    .body-2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .card-2 {
+        margin-left: px;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-top: 150px;
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 25px;
     }
 
 }
