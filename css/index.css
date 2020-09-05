@@ -183,4 +183,44 @@ label > h4 {
 
 }
 
-@media only screen and (max-width: 992px)
+@media only screen and (min-width: 600px) {
+    
+    .section-1 {
+        margin-top: 525px;
+        margin-left: 0;
+        width: 100%;
+        padding-right: -500px;
+        height: auto;  
+        position: relative;
+    }
+
+    .card-1 {
+        width: 100%;
+        opacity: 0.2;   
+        padding-bottom: 15px; 
+        padding-right: -100px;
+        /* margin-top: 10px;
+        margin-bottom: 10px; */
+        margin: 25px;
+        color: rgb(154, 149, 149);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        transition: 0.2s;
+    }
+
+    .body-2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .card-2 {
+        margin-left: 0 auto;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-top: 325px;
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+}
